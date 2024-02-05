@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/jnb7wah.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Aromas Café & Co</title>
+</head>
+<body>
+
+    <!-- CABEÇALHO DO SITE -->
+
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Aromas Café & Co</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-o-restaurante">
+                        <i class="bi bi-house-door me-1"></i>
+                        Sobre o Café
+                    </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destaques">
+                        <i class="bi bi-calendar-check me-1"></i>
+                        Diferenciais
+                    </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cardapio">
+                        <i class="bi bi-card-text me-1"></i>
+                        Nosso Menu
+                    </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fale-conosco">
+                        <i class="bi bi-chat-left-text me-1"></i>
+                        Entre em Contato
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- SOBRE -->
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/slide1.jpg" alt="Café servido na mesa">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide2.jpg" alt="Espaço Interno da Cafeteria">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide3.jpg" alt="Um casal escolhendo em nosso menu digital">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+    
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+    
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button></div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/cafeteria.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da cafeteria">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sabores <span class="text-colored">que Encantam</span></h2>
+                            <p>Conheça a história por trás da nossa paixão por café e como transformamos cada xícara em uma experiência única.</p>
+                            <h3 class="section-title">Comprometimento <span class="text-colored">com Qualidade</span></h3>
+                            <p>Desde 2010, dedicamos-nos a selecionar os melhores grãos e proporcionar momentos de puro prazer aos nossos clientes.</p>
+                            <ul>
+                                <li>Café fresco, torrado na hora.</li>
+                                <li>Atendimento acolhedor para todos.</li>
+                                <li>Inovação constante de surpreender.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE EVENTOS -->
+
+        <section id="destaques" class="py-5" data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Seção <span class="text-colored">de Destaques</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/eventos/promocoes.jpg" alt="" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill me-3"></i>
+                            Promoções do Mês
+                        </h3>
+                        <p>Explore nossas ofertas exclusivas do mês, preparadas com ingredientes frescos e cuidadosamente selecionados.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/novidades.jpg" alt="" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill me-3"></i>
+                            Novidades Fresquinhas
+                        </h3>
+                        <p>Conheça as últimas adições ao nosso menu, sempre buscando inovação e surpreendendo o seu paladar.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/opinioes.jpg" alt="" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill me-3"></i>
+                            Opiniões que Importam
+                        </h3>
+                        <p>Leia o que nossos clientes têm a dizer sobre a experiência única na Aromas Café & Co. A sua satisfação é nossa maior conquista.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SEÇÃO DO CARDÁPIO -->
+
+        <section id="cardapio" class="py-5" data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">Cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2 mb-4">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-quentes" class="fw-bold text-start nav-link text-colored active">Bebidas Quentes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-geladas" class="fw-bold text-start nav-link text-colored">Bebidas Geladas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#snacks-saborosos" class="fw-bold text-start nav-link text-colored">Snacks Saborosos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas Incríveis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#opcoes-saudaveis" class="fw-bold text-start nav-link text-colored">5 Opções Saudáveis</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-quentes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas quentes/cafe expresso.jpg" class="d-block w-100 rounded" alt="Café Expresso">
+                                        <h5 class="text-colored mt-2">Café Expresso</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas quentes/cappuccino tradicional.jpg" class="d-block w-100 rounded" alt="Cappuccino Tradicional">
+                                        <h5 class="text-colored mt-2">Cappuccino Tradicional</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas quentes/cha de ervas.jpg" class="d-block w-100 rounded" alt="Chá de Ervas">
+                                        <h5 class="text-colored mt-2">Chá de Ervas</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas quentes/mocha especial.jpg" class="d-block w-100 rounded" alt="Mocha Especial">
+                                        <h5 class="text-colored mt-2">Mocha Especial</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas quentes/latte de baunilha.jpg" class="d-block w-100 rounded" alt="Latte de Baunilha">
+                                        <h5 class="text-colored mt-2">Latte de Baunilha</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas quentes/chocolate quente.jpg" class="d-block w-100 rounded" alt="Chocolate Quente">
+                                        <h5 class="text-colored mt-2">Chocolate Quente</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-geladas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas geladas/Frappé de Café.jpg" class="d-block w-100 rounded" alt="Frappé de Café">
+                                        <h5 class="text-colored mt-2">Frappé de Café</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas geladas/Smoothie de Frutas Frescas.jpg" class="d-block w-100 rounded" alt="Smoothie de Frutas Frescas">
+                                        <h5 class="text-colored mt-2">Smoothie de Frutas Frescas</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas geladas/Chá Gelado de Pêssego.jpg" class="d-block w-100 rounded" alt="Chá Gelado de Pêssego">
+                                        <h5 class="text-colored mt-2">Chá Gelado de Pêssego</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas geladas/Café Gelado com Creme.jpg" class="d-block w-100 rounded" alt="Café Gelado com Creme">
+                                        <h5 class="text-colored mt-2">Café Gelado com Creme.</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas geladas/Limonada de Morango.jpg" class="d-block w-100 rounded" alt="Limonada de Morango">
+                                        <h5 class="text-colored mt-2">Limonada de Morango</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/bebidas geladas/Iced Macchiato.jpg" class="d-block w-100 rounded" alt="Iced Macchiato">
+                                        <h5 class="text-colored mt-2">Iced Macchiato</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            <div class="tab-pane" id="snacks-saborosos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/snacks saborosos/Croissant de Chocolate.jpg" class="d-block w-100 rounded" alt="Croissant de Chocolate">
+                                        <h5 class="text-colored mt-2">Croissant de Chocolate</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/snacks saborosos/Bolinho de Cenoura.jpg" class="d-block w-100 rounded" alt="Bolinho de Cenoura">
+                                        <h5 class="text-colored mt-2">Bolinho de Cenoura</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/snacks saborosos/Mini Quiche de Queijo.jpg" class="d-block w-100 rounded" alt="Mini Quiche de Queijo">
+                                        <h5 class="text-colored mt-2">Mini Quiche de Queijo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/snacks saborosos/Pão de Queijo Artesanal.jpg" class="d-block w-100 rounded" alt="Pão de Queijo Artesanal">
+                                        <h5 class="text-colored mt-2">Pão de Queijo Artesanal</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/snacks saborosos/Salada de Frutas da Estação.jpg" class="d-block w-100 rounded" alt="Salada de Frutas da Estação">
+                                        <h5 class="text-colored mt-2">Salada de Frutas da Estação</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/snacks saborosos/Baguete Integral com Patê.jpg" class="d-block w-100 rounded" alt="Baguete Integral com Patê">
+                                        <h5 class="text-colored mt-2">Baguete Integral com Patê</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/sobremesas irresistiveis/Tiramisu de Café.jpg" class="d-block w-100 rounded" alt="Tiramisu de Café">
+                                        <h5 class="text-colored mt-2">Tiramisu de Café</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/sobremesas irresistiveis/Cheesecake de Framboesa.jpg" class="d-block w-100 rounded" alt="Cheesecake de Framboesa">
+                                        <h5 class="text-colored mt-2">Cheesecake de Framboesa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/sobremesas irresistiveis/Brownie de Chocolate Belga.jpg" class="d-block w-100 rounded" alt="Brownie de Chocolate Belga">
+                                        <h5 class="text-colored mt-2">Brownie de Chocolate Belga</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/sobremesas irresistiveis/Torta de Maçã Caseira.jpg" class="d-block w-100 rounded" alt="Torta de Maçã Caseira">
+                                        <h5 class="text-colored mt-2">Torta de Maçã Caseira</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/sobremesas irresistiveis/Sorvete Artesanal.jpg" class="d-block w-100 rounded" alt="Sorvete Artesanal">
+                                        <h5 class="text-colored mt-2">Sorvete Artesanal</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/sobremesas irresistiveis/Mousse de Maracujá.jpg" class="d-block w-100 rounded" alt="Mousse de Maracujá">
+                                        <h5 class="text-colored mt-2">Mousse de Maracujá</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            <div class="tab-pane" id="opcoes-saudaveis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/opcoes saudaveis/Smoothie Verde Energizante.jpg" class="d-block w-100 rounded" alt="Smoothie Verde Energizante">
+                                        <h5 class="text-colored mt-2">Smoothie Verde Energizante</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/opcoes saudaveis/Wrap de Frango Grelhado.jpg" class="d-block w-100 rounded" alt="Wrap de Frango Grelhado">
+                                        <h5 class="text-colored mt-2">Wrap de Frango Grelhado</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/opcoes saudaveis/Salada Mediterrânea.jpg" class="d-block w-100 rounded" alt="Salada Mediterrânea">
+                                        <h5 class="text-colored mt-2">Salada Mediterrânea</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/opcoes saudaveis/Sanduíche Vegano.jpg" class="d-block w-100 rounded" alt="Sanduíche Vegano">
+                                        <h5 class="text-colored mt-2">Sanduíche Vegano</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/opcoes saudaveis/Açaí Bowl Nutritivo.jpg" class="d-block w-100 rounded" alt="Açaí Bowl Nutritivo">
+                                        <h5 class="text-colored mt-2">Açaí Bowl Nutritivo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cardapio/opcoes saudaveis/Sopa de Legumes Frescos.jpg" class="d-block w-100 rounded" alt="Sopa de Legumes Frescos">
+                                        <h5 class="text-colored mt-2">Sopa de Legumes Frescos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SEÇÃO DO CONTATO -->
+
+        <section id="fale-conosco" class="py-5" data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="nome">Seu Nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="email">Seu E-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="telefone">Seu Telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="mensagem">Sua Mensagem</label>
+                                <textarea type="text" id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5"><a href="#"><i class="bi bi-facebook text-colored"></i></a></li>
+                                <li class="fs-5"><a href="#"><i class="bi bi-instagram text-colored mx-1"></i></a></li>
+                                <li class="fs-5"><a href="#"><i class="bi bi-whatsapp text-colored"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Avenida Lorem Ipsum, 0000, Bairro Bootstrap, Lorem Ipsum - LI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
